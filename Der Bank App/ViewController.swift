@@ -13,8 +13,14 @@ class ViewController: UIViewController {
 
 //    @IBOutlet weak var value_Label: UILabel!
 //    @IBOutlet weak var value_Label: UILabel = 0;
+    // Псевдокомментарии - для сортировки в отображении в выпадающем списке
+    // MARK: - Outlets
     @IBOutlet weak var value_Label: UILabel?
+    @IBOutlet weak var pv_TextField: UITextField?
+    @IBOutlet weak var nper_TextField: UITextField?
+    @IBOutlet weak var rate_TextField: UITextField?
     
+    // MARK: - Properties
     var value = 1000.00 {
         // добавление наблюдателя
         didSet{
@@ -22,6 +28,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // MARK: - Methods
     func updateValue(){
         // используем форматер, для вывода текста в формате
         // let - константа
@@ -54,7 +61,11 @@ class ViewController: UIViewController {
         value += 1
     }
 
-
+    @IBAction func textFieldEditingChange(_ sender: UITextField) {
+        //print(sender.text ?? <#default value#>)
+        print(sender.text ?? "nil")
+    }
+    
     
 }
 
