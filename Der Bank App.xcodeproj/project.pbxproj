@@ -13,6 +13,8 @@
 		E03835E1255946D4001DE854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03835DF255946D4001DE854 /* Main.storyboard */; };
 		E03835E3255946D7001DE854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03835E2255946D7001DE854 /* Assets.xcassets */; };
 		E03835E6255946D7001DE854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03835E4255946D7001DE854 /* LaunchScreen.storyboard */; };
+		E0B29EE5255AB43000B14EBB /* ExceleFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B29EE4255AB43000B14EBB /* ExceleFormula.swift */; };
+		E0B29EE7255ABB3E00B14EBB /* Double+asCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B29EE6255ABB3E00B14EBB /* Double+asCurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E03835E2255946D7001DE854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E03835E5255946D7001DE854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E03835E7255946D7001DE854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B29EE4255AB43000B14EBB /* ExceleFormula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceleFormula.swift; sourceTree = "<group>"; };
+		E0B29EE6255ABB3E00B14EBB /* Double+asCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+asCurrency.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E03835E2255946D7001DE854 /* Assets.xcassets */,
 				E03835E4255946D7001DE854 /* LaunchScreen.storyboard */,
 				E03835E7255946D7001DE854 /* Info.plist */,
+				E0B29EE4255AB43000B14EBB /* ExceleFormula.swift */,
+				E0B29EE6255ABB3E00B14EBB /* Double+asCurrency.swift */,
 			);
 			path = "Der Bank App";
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03835DE255946D4001DE854 /* ViewController.swift in Sources */,
+				E0B29EE7255ABB3E00B14EBB /* Double+asCurrency.swift in Sources */,
 				E03835DA255946D4001DE854 /* AppDelegate.swift in Sources */,
+				E0B29EE5255AB43000B14EBB /* ExceleFormula.swift in Sources */,
 				E03835DC255946D4001DE854 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

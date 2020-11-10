@@ -122,6 +122,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Loan" image="creditcard" catalog="system" id="rLA-kN-oON"/>
                     <connections>
+                        <outlet property="monthlyValue_Label" destination="VZw-JS-D7F" id="73R-V7-52N"/>
                         <outlet property="nper_TextField" destination="v0L-Be-F41" id="RJb-be-xYR"/>
                         <outlet property="pv_TextField" destination="64M-wM-pTg" id="wl6-HP-soM"/>
                         <outlet property="rate_TextField" destination="kqP-c7-cC8" id="6al-RL-Ilg"/>
