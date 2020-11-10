@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         
         // если не ставить, то валюта отображается через Локаль
         formatter.currencySymbol = "Р"
-        
+   
         //value_Label?.text = "Баланс: \(value)"
         // промежуточная константа
         let number = NSNumber(value: value)
