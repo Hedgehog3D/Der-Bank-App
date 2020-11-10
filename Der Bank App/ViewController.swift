@@ -23,7 +23,18 @@ class ViewController: UIViewController {
     }
     
     func updateValue(){
-        value_Label?.text = "Баланс: \(value)"
+        // используем форматер, для вывода текста в формате
+        // let - константа
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        
+        // если не ставить, то валюта отображается через Локаль
+        formatter.currencySymbol = "Р"
+        
+        //value_Label?.text = "Баланс: \(value)"
+        // промежуточная константа
+        let number = NSNumber(value: value)
+        value_Label?.text = formatter.string(from: number)
     }
     
 //    var value: Int!
